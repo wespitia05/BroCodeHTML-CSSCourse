@@ -16,7 +16,17 @@
         <!-- min length sets minimum length for input, max length for maximum length -->
         <input type="text" id="username" placeholder="Spongebob" minlength="6" maxlength="15" required> 
 
-        <input type="reset"><br>
+        <label for="password">password:</label>
+        <input type="password" id="password"><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="SSquarepants@gmail.com"><br>
+
+        <label for="phone">phone #:</label>
+        <!-- pattern tells us the format for the phone number 3 digits - 3 digits - 4 digits -->
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+        <input type="reset"><br> <!-- reset button resets all attributes to default -->
         <input type="submit">
 
     </form>
