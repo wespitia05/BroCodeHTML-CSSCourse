@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- form action sends info to action attribute -->
+    <form action="index.php" method="GET">
+
+        <!-- adding for attribute to label will move cursor to text box -->
+        <label for="username">username:</label>
+        <!-- required makes you fill out input box before submission -->
+        <!-- min length sets minimum length for input, max length for maximum length -->
+        <input type="text" id="username" placeholder="Spongebob" minlength="6" maxlength="15" required> 
+
+        <input type="reset"><br>
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
