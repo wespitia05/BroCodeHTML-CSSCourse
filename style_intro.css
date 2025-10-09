@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+/* p will select all paragraphs */
+/*
+p {
+    color: white;
+}
+*/
+
+/* #id_name will affect only that paragraph with the specified id name */
+/*
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: orange;
+}
+
+#p3 {
+    color: yellow;
+}
+
+#p4 {
+    color: green;
+}
+*/
+
+/* .class_name will affect only that paragraph with the specified class name */
+.odd {
+    color: red;
+}
+
+.even {
+    color: blue;
+}
