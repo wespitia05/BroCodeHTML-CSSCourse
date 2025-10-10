@@ -1,0 +1,11 @@
+/* two fonts, if first font is unavailable, use second */
+h1 {
+    font-family: "BBH Sans Bogle", arial;
+}
+
+p {
+    font-family: "lucida console", "courier new";
+    font-size: 1.5em; /* 150% */
+    font-weight: bold;
+    font-style: italic;
+}
