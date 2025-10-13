@@ -1,0 +1,14 @@
+/* text shadows */
+h1 {
+    /* three numbers: horizontal offset, vertical offset, blur */
+    /* can add more than 1 shadow, separated by a comma */
+    text-shadow: 3px 3px 5px red, -3px -3px 5px rgb(79, 134, 243);
+}
+
+/* box shadows */
+#box1 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px red, -3px -3px 5px blue;
+}
