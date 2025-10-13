@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+
+#box1 {
+    background-color: rgb(250, 91, 91);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* or margin: 50px */
+}
+
+#box2 {
+    background-color: rgb(126, 126, 245);
+    margin-left: auto; /* sticks div to right side of webpage */
+    /* margin: auto (centers div to the page) */
+}
