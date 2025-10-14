@@ -1,0 +1,16 @@
+div {
+    background-color: red;
+    /* you can apply width and height to a block level element */
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+
+span {
+    background-color: blue;
+    /* cant apply width or height to an inline element */
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
