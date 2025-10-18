@@ -1,0 +1,7 @@
+body {
+    background-image: url(images/home.png);
+    background-repeat: no-repeat; /* image isn't repeating */
+    background-position: center; /* background centered horizontally */
+    background-attachment: fixed; /* places image in the middle of the viewport */
+    background-size: cover; /* image takes up the size of the entire page */
+}
