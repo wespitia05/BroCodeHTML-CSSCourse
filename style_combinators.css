@@ -1,0 +1,30 @@
+#container {
+    border: 2px solid;
+}
+
+/* all paragraphs get highlighted yellow with descendant operator */
+/*
+#container p{
+    background-color: rgb(246, 246, 132);
+}
+*/
+
+/* only direct children of the container get highlighted, therefore only 1 and 2 */
+/*
+#container > p{
+    background-color: rgb(246, 246, 132);
+}
+*/
+
+/* only general siblings of the container get highlighted, therefore only 4 and 5 */
+/*
+#container ~ p{
+    background-color: rgb(246, 246, 132);
+}
+*/
+
+/* only adjacent siblings of the container get highlighted, therefore only 4, not 5 */
+
+#container + p{
+    background-color: rgb(246, 246, 132);
+}
