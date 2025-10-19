@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
 }
@@ -24,5 +28,38 @@ header {
     }
     li {
         display: inline-block; /* puts items next to each other */
+    }
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer {
+    display: block;
+    clear: both; /* clears any float variables */
+    background-color: hsl(0, 2%, 76%);
+    text-align: center;
+    padding: 25px;
+}
+
+/* if we are on a mobile device 600px or below, each main element will take up 100% of the screen */
+@media screen and (max-width:600px) {
+    aside, section, article {
+        width: 100%;
     }
 }
