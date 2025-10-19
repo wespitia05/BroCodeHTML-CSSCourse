@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: hsl(0, 2%, 76%);
+    text-align: center;
+    padding: 25px;
+}
+
+.navbar {
+    background-color: hsl(0, 1%, 19%);
+    height: 50px;
+    text-align: center; /* centers those items */
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    a {
+        color: white;
+        padding: 15px;
+        display: inline-block;
+    }
+    li {
+        display: inline-block; /* puts items next to each other */
+    }
+}
