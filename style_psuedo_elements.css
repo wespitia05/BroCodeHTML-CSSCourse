@@ -1,0 +1,39 @@
+/* affects only the first letter of h1 */
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+/* affects only the first line in p */
+p::first-line {
+    background-color: rgb(246, 246, 119);
+}
+
+/* when highlighting, font turns green and background turns gray */
+p::selection {
+    color: rgb(60, 247, 82);
+    background-color: rgb(83, 82, 82);
+}
+
+/* adds checkmark to all list items before list item name */
+#fruit li::before {
+    /*content: "✓";*/
+}
+
+/* adds fruit emoji after each list item name */
+#apple::after {
+    content: "🍎";
+}
+#orange::after {
+    content: "🍊";
+}
+#banana::after {
+    content: "🍌";
+}
+
+/* changes unordered list bullet point to emoji */
+#fruit li::marker {
+    content: "✓";
+    color: rgb(119, 247, 119);
+    font-size: 1.5em;
+}
