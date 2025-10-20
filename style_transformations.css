@@ -2,13 +2,17 @@ body {
     margin: 0px;
 }
 
-#box1 {
+.box {
     width: 250px;
     height: 250px;
     border: 5px solid;
     font-size: 13em;
     text-align: center;
-    background-color: rgb(124, 252, 124);
+    transform: translateX(100px) rotateZ(45deg) scale(0.5);
+}
+
+#box1 {
+    background-color: hsl(120, 96%, 74%);
 
     /*transform: translateX(50px); /* moves element horizontally */
     /*transform: translateY(50px); /* moves element vertically */
@@ -20,5 +24,15 @@ body {
     /*transform: scaleY(2); /* scales element on y axis by 200% */
     /*transform: scale(2, 2); /* scales element on x axis and y axis by 200% */
     /*transform: skewX(45deg); /* skews element on x axis */
-    transform: skewY(45deg); /* skews element on the y axis */
+    /*transform: skewY(45deg); /* skews element on the y axis */
+    /*transform: skew(45deg, 45deg); /* skews element on the x axis and the y axis */
+    /*transform: translateX(100%) rotateZ(90deg) scale(0.5); */
+}
+
+#box2 {
+    background-color: hsl(0, 95%, 74%);
+}
+
+#box3 {
+    background-color: hsl(234, 85%, 76%);
 }
