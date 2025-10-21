@@ -1,0 +1,29 @@
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: hsl(0, 93%, 65%);
+    font-size: 13em;
+    text-align: center;
+    animation-name: slidedown; /* call the keyframes function */
+    animation-duration: 2s; /* determine how long the animation will take */
+}
+
+@keyframes slideleft {
+    /* animation starts from this position (FROM) */
+    from {transform: translateX(100%);}
+}
+
+@keyframes slideright {
+    /* animation ends in this position (TO) */
+    to {transform: translateX(100%);}
+}
+
+@keyframes slideup {
+    /* animation starts from this position (FROM) */
+    from {transform: translateY(100%);}
+}
+
+@keyframes slidedown {
+    /* animation ends in this position (TO) */
+    to {transform: translateY(100%);}
+}
